@@ -25,7 +25,7 @@
 					<a href="http://github.com/wajatimur/dtre" >GitHub project</a>
 				</li>
 				<li>
-					<a href="./demo/" >Demo</a>
+					<a href="#demo" >Demo</a>
 				</li>
 				<li>
 					Version 0.9.1
@@ -55,7 +55,6 @@
 	</div>
 	<?php } ?>
 	
-	
 	<div id="wrap" class="container" role="document">
 
 		<div class="marketing">
@@ -76,7 +75,7 @@
 				</div>
 				<div class="span3">
 					<h2>For Developer</h2>
-					<p>DTRE have been built from scratch, please help us to improved the code.</p>
+					<p>DTRE have been built from scratch, beautifully code for other to understand. Please help us to improved the code.</p>
 				</div>
 			</div>
 		</div>

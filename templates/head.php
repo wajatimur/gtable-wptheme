@@ -7,7 +7,8 @@
   <meta charset="utf-8">
   <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="google-site-verification" content="ltogbMgMVZKtLXxTMMhxsDP2tsJYAHX0q4CRXdhy9Gc" />
+  
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/modernizr-2.6.2.min.js"></script>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>

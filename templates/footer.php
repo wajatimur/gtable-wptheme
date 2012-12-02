@@ -1,6 +1,13 @@
-<footer id="content-info" class="container" role="contentinfo">
-  <?php dynamic_sidebar('sidebar-footer'); ?>
-  <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+<footer id="content-info" class="footer" role="contentinfo">
+  	<div class="container">
+		<p class="pull-right"><a href="#">Back to top</a></p>
+		<p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+		<ul class="footer-links">
+		  <li>Sponsored By <a href="http://nematix.com">Nematix Software</a></li>
+		</ul>
+	  	<?php dynamic_sidebar('sidebar-footer'); ?>
+	  	<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+  	</div>
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
