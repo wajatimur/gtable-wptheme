@@ -56,7 +56,7 @@
 	<?php } ?>
 	
 	<div id="wrap" class="container" role="document">
-
+		<?php if (is_front_page()) { ?>
 		<div class="marketing">
 			<h1>Introducing DTRE.</h1>
 			<p class="marketing-byline">Minimal setup and powerful table editing library for faster and easier web development.</p>
@@ -79,7 +79,8 @@
 				</div>
 			</div>
 		</div>
-	
+		<?php } ?>
+		
 		<div id="content" class="row">
 			<div id="main" class="<?php echo roots_main_class(); ?>" role="main">
 			<?php include roots_template_path(); ?>
@@ -91,7 +92,8 @@
 			<?php endif; ?>
 		</div><!-- /#content -->
 	</div><!-- /#wrap -->
-
+	
+	
 	<?php get_template_part('templates/footer'); ?>
 
 </body>
